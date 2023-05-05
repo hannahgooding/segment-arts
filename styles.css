@@ -1,18 +1,68 @@
+:root {
+    --primary-color: #ec5b14;
+    --secondary-color: #f8b114;
+  }
+
 main {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     margin: 10%;
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
 }
 
-.logo {
+.segment-logo {
     width: 300px;
 }
 
-.info {
+.arts-council-logo {
+    width: 300px;
+    margin: 30px;
+}
+
+.community-fund-logo {
+    width: 300px;
+}
+
+h1 {
+    margin-bottom: 50px;
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+
+h2 {
+    color: var(--primary-color);
+}
+
+section {
     text-align: center;
     max-width: 700px;
     margin-bottom: 50px;
+}
+
+.paragraph {
+    margin-bottom: 10px;
+}
+
+a {
+    color: var(--secondary-color);
+    font-weight: 550;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--primary-color);
+    font-weight: 550;
+    text-decoration: underline wavy 2.5px;
+    text-underline-offset: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+b {
+    font-weight: 550;
 }
