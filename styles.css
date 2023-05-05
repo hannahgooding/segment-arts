@@ -31,6 +31,26 @@ h1 {
     font-weight: 700;
     font-size: 40px;
     letter-spacing: 1px;
+    text-decoration: none;
+    position: relative;
+    padding: 0px 6px;
+}
+
+h1:hover::before {
+    bottom: 0;
+    height: 100%;
+}
+
+h1::before {
+    content: '';
+    background-color: var(--secondary-color);
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+    width: 100%;
+    height: 9px;
+    z-index: -1;
+    transition: all .3s ease-in-out;
 }
 
 
