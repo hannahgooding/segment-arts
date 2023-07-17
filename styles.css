@@ -31,6 +31,7 @@ footer {
     text-align: center;
     margin-bottom: 21px;
     bottom: 0;
+    font-size: 12px;
 }
 
 svg {
@@ -115,6 +116,14 @@ header {
 }
 
 @media only screen and (min-width: 768px) {
+    body {
+        font-size: 21px;
+    }
+
+    footer {
+        font-size: 15px;
+    }
+
     .navbar__segment-logo {
         height: 69px;
     }
