@@ -110,6 +110,10 @@ header {
     align-items: flex-end;
 }
 
+.navbar__links > a {
+    padding: 6px;
+}
+
 .paragraph {
     margin-bottom: 10px;
 }
@@ -148,6 +152,10 @@ header {
 
     .navbar__menu-icon, .navbar__instagram-icon {
         height: 27px;
+    }
+
+    .navbar__links > a {
+        padding: 3px;
     }
 
     .project-container {
