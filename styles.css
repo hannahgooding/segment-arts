@@ -121,11 +121,11 @@ header {
 
 .about-container, .contact-container {
    height: 100vh;
-   width: 50%;
+   width: 75%;
 }
 
 .project-text {
-    width: 50%;
+    width: 75%;
 }
 
 .poster {
@@ -152,6 +152,14 @@ header {
 
     .project-container {
         flex-direction: row;
+    }
+
+    .about-container, .contact-container {
+       width: 50%;
+    }
+
+    .project-text {
+        width: 50%;
     }
 
     .poster {
